@@ -9,6 +9,5 @@ while count < number:
         multiply = (1+(1/i))**i
         lst.append(round(multiply, 2))
         count += 1
-
 print(lst)
 print(f'The sum of numbers in the list is : ', sum(lst))
