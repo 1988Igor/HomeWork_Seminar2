@@ -4,15 +4,15 @@
 # - 6782 -> 23
 # - 0.56 -> 11
 
-number = float(input('Enter a number :'))
-str1 = str(number)
-str2 = str1.replace('.', '')
-my_number = int(str2)
+str1 = str(input('Enter a number :'))
+str2 = str1.replace(',', '').replace('.', '')
+str3 = int(str2)
+index = 0
+summ = 0
 remainder_ = 0
 summ = 0
-while (my_number != 0):
-    remainder_ = my_number % 10
+while (str3 != 0):
+    remainder_ = str3 % 10
     summ = summ + remainder_
-    my_number = my_number//10
+    str3 = str3//10
 print(summ)
-
