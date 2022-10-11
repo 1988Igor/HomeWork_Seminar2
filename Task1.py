@@ -15,4 +15,4 @@ while (str3 != 0):
     remainder_ = str3 % 10
     summ = summ + remainder_
     str3 = str3//10
-print(summ)
+print(f'The sum of number is : {summ}')
